@@ -38,6 +38,8 @@ Designed clear task monitoring steps to help users recognize progress, recover f
 Throughout this process, we used Slack to communicate, share information, and troubleshoot together.  
 This helped the team solve problems faster, stay on task and updated, and stay connected while working from different places.
 
+These are many of the UX-related things I worked on during this troubleshooting process:
+
 - Helped contributors in Slack resolve a recurring **“Too Many Tasks”** error in Google Earth Engine, which appeared when users tried to export too much satellite data at once.  
 - Identified that the issue came from exceeding GEE’s 3,000-task queue limit during large batch exports.  
 - Tested and documented a clearer fix: filtering data by year, exporting one year at a time, and adding a **task-monitoring loop** to prevent queue overload.  
