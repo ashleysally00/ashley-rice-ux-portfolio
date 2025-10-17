@@ -35,16 +35,18 @@ Documented troubleshooting for recurring GEE errors, including the “Too Many T
 Designed clear task monitoring steps to help users recognize progress, recover from errors, and maintain workflow continuity.
 
 ### Collaboration Example — Troubleshooting and Iteration
+
 Throughout this process, we used Slack to communicate, share information, and troubleshoot together.  
-This helped the team solve problems faster, stay on task and updated, and stay connected while working from different places.
+This helped the team solve problems faster, stay on task and updated, and stay connected while working from different places.  
 
 These are many of the UX-related things I worked on during this troubleshooting process:
 
 - Helped contributors in Slack resolve a recurring **“Too Many Tasks”** error in Google Earth Engine, which appeared when users tried to export too much satellite data at once.  
 - Identified that the issue came from exceeding GEE’s 3,000-task queue limit during large batch exports.  
-- Tested and documented a clearer fix: filtering data by year, exporting one year at a time, and adding a **task-monitoring loop** to prevent queue overload.  
+- Tested and documented the fix for filtering data by year, exporting one year at a time, and adding a **task-monitoring loop** to prevent queue overload.  
 - Updated onboarding documentation and added screenshots explaining the step-by-step process in Google Colab.  
-- **Outcome:** Fewer failed runs, faster onboarding for new contributors, and reusable guidance for future satellite data workflows.  
+- **Outcome:** Fewer failed runs, faster onboarding for new contributors, and reusable guidance for future satellite data workflows.
+
 
 ### Reflection
 We were able to work better as a team because we shared our workflow and documentation.  
