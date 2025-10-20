@@ -1,4 +1,4 @@
-# Ashley Rice — UX Content Design Portfolio
+# UX Content Design Portfolio — selected projects in AI, interactive storytelling, and content strategy
 
 This portfolio presents selected UX content design projects demonstrating strategy, clarity, and measurable impact.
 
