@@ -4,6 +4,9 @@
 **Platform:** Google Earth Engine (GEE), Google Colab, DagsHub  
 **Project Type:** AI for Social Good • Data Tool UX • Contributor Experience Design  
 
+### Repository  
+[View full project repository](https://github.com/ashleysally00/Uttarakhand-Land-Surface-Temperature-LST-Analysis-Using-GEE)
+
 ---
 
 ## Objective
