@@ -31,10 +31,9 @@ I also optimized titles and internal links for search visibility and Pinterest e
 Experience the project live on the author’s website:
 
 - [Penelope’s Pages (Main Hub)](https://ashleyrice.net/penelopes-pages)
-- [Happy Birthday Poems](https://ashleyrice.net/happy-birthday)
 - [25 Girl Power Quotes That Hit Different](https://ashleyrice.net/different-quotes)
 - [You’ve Got Guts](https://ashleyrice.net/it-takes-guts)
 - [Wherever You Go... Continued](https://ashleyrice.net/where-you-go-version-2)
 - [A Little Note for You](https://ashleyrice.net/a-little-note-for-you)
-
+- [Happy Birthday Poems](https://ashleyrice.net/happy-birthday)
 
