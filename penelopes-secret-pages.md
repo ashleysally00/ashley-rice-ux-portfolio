@@ -12,12 +12,6 @@ Each page highlights poems, quotes, and creative extras inspired by the books, s
 
 **Goal:** Make exploration feel personal and uplifting while encouraging visitors to discover more of the author’s work through Pinterest and organic search.
 
-### Objective
-Design an interactive section of the author website where readers and pinners—especially tween girls—can explore themed poetry pages from the Penelope J. Miller book series.  
-Each page highlights poems, quotes, and creative extras inspired by the books, such as birthday messages, girl-power affirmations, and letters from Penelope herself.  
-
-**Goal:** Make exploration feel personal and uplifting while encouraging visitors to discover more of the author’s work through Pinterest and organic search.
-
 ---
 
 ### My Role
