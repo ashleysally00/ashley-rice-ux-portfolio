@@ -21,7 +21,7 @@ Each page highlights poems, quotes, and creative extras inspired by the books, s
 ---
 
 ### My Role
-I designed the structure and wrote all copy for this section of the author website.  
+I wrote the poems and designed the structure and copy for this section of the author website.  
 I organized the hidden poetry pages into a cohesive hub, added internal navigation for discoverability, and aligned tone, visuals, and layout with the Penelope J. Miller book series.  
 I also optimized titles and internal links for search visibility and Pinterest engagement.
 
