@@ -1,6 +1,7 @@
 UX Content Design Portfolio — selected projects in AI, storytelling, and product content strategy
 
-This portfolio presents selected UX content design projects demonstrating strategy, clarity, and measurable impact.
+I design clear and intuitive human-AI interactions through UX writing, structured content systems, and smart prompt strategy.
+This portfolio highlights select projects demonstrating clarity, trust, and measurable improvements in how users communicate with AI.
 
 ---
 
