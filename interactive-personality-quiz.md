@@ -24,5 +24,11 @@ Create an interactive, story-based quiz that helps visitors discover which Penel
   <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/Bookmark.png" width="80%">
 </p>
 
+## Visual Example  
+**Result Screen — “Your Penelope book match”**  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/Quiz_Results_Page.png" width="80%">
+</p>
+
 
 [Try the quiz live →](https://ashleysally00.github.io/seo-structured-data-fixes/books_quiz.html)
