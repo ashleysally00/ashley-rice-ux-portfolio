@@ -8,7 +8,7 @@
 
 ## Objective
 
-This project focused on improving how readers and pinners discover Ashley Rice’s creative work through Pinterest and her Squarespace website.  
+This project focused on improving how readers and pinners discover a tween poetry brand through Pinterest and its Squarespace website.  
 The goal was to make the visual and written experience feel cohesive—from the first pin interaction to visiting the site—by testing new copy styles, board structures, and visual compositions.  
 It combined UX writing, content strategy, and design iteration to strengthen engagement, accessibility, and cross-platform consistency.
 
