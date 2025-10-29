@@ -21,8 +21,19 @@ I also optimized titles and internal links for search visibility and Pinterest e
 
 ---
 
-### Explore the Live Pages
-Experience the project live on the author’s website:
+## Visual Example  
+**Pinterest-to-Content Navigation**  
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/Secret_Pages_Navigation.png" width="60%">
+</p>
+
+## Outcome  
+- Pinterest visitors land on content that matches their intentions, not a bookstore page  
+- Users explore multiple pages instead of leaving immediately  
+- Improved relevance builds emotional engagement before purchase consideration
+
+### Explore the Live Pages  
+Experience the project live on the website:
 
 - [Penelope’s Pages (Main Hub)](https://ashleyrice.net/penelopes-pages)
 - [25 Girl Power Quotes That Hit Different](https://ashleyrice.net/different-quotes)
@@ -31,3 +42,5 @@ Experience the project live on the author’s website:
 - [A Little Note for You](https://ashleyrice.net/a-little-note-for-you)
 - [Happy Birthday Poems](https://ashleyrice.net/happy-birthday)
 
+
+Full content sample and UX copy are included above.
