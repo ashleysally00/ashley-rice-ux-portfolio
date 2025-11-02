@@ -24,7 +24,8 @@ I also optimized titles and internal links for search visibility and Pinterest e
 ## Visual Example  
 **Pinterest-to-Content Navigation**  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/Secret_Pages_Navigation.png" width="60%">
+ <img src="../images/Secret_Pages_Navigation.png" width="60%">
+
 </p>
 
 ## Outcome  
