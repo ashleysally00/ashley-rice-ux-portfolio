@@ -4,7 +4,7 @@
 
 ## Case Studies
 
-- [Interactive Personality Quiz](./projects/interactive-personality-quiz.md) – Narrative UX and engagement design  
+- [Interactive Personality Quiz](./projects/interactive-personality-quiz.md) – Combined quiz logic with brand voice to turn self-discovery into product discovery and strengthen brand loyalty for a tween brand.
 - [Penelope’s Secret Pages](./projects/penelopes-secret-pages.md) – Creative UX and interface writing  
 - [Pinterest Journey & Discovery Flow](./projects/pinterest-journey.md) – Data-informed content strategy  
 - [Books Page Redesign](./projects/books-page-redesign.md) – Structure, hierarchy, and clarity improvements  
