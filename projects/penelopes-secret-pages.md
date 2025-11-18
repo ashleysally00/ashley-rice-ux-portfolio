@@ -1,47 +1,38 @@
-# Penelope’s Secret Pages — Interactive UX for Readers and Pinners
+## Penelope’s Secret Pages  
+**Interactive UX for Readers and Pinners**
 
-**Role:** UX Content Designer · Information Architect · Copywriter  
-**Platform:** ashleyrice.net (Squarespace 7.1)  
-**Project Type:** Live Author Experience  
+**Role** UX Content Designer · Information Architect · Copywriter  
+**Platform** ashleyrice.net (Squarespace 7.1)  
+**Duration** 4 weeks  
+**Tools** Squarespace · SEO tools · Pinterest  
+
+**The Challenge**  
+Tween readers and Pinterest users were landing from pins on generic book pages with no emotional hook and bouncing fast.
+
+**What I Did**  
+- Wrote original poems, quotes, birthday messages, and “letters from Penelope”  
+- Built a hidden, diary-style hub of discoverable poetry pages  
+- Crafted warm microcopy and smart internal navigation to encourage multi-page exploration  
+- Optimized page titles, meta descriptions, and rich pins for Pinterest + Google traffic  
+
+**Outcome**  
+A living, browsable world that turns Pinterest visitors into delighted readers who explore, pin, and feel personally connected to Penelope before ever seeing a buy button.
+
+**Live experience** → https://ashleyrice.net/penelopes-pages (and sub-pages)
 
 ---
 
-### Objective
-Design an interactive section of the author website where readers and pinners—especially tween girls—can explore themed poetry pages from the Penelope J. Miller book series.  
-Each page highlights poems, quotes, and creative extras inspired by the books, such as birthday messages, girl-power affirmations, and letters from Penelope herself.  
-
-**Goal:** Make exploration feel personal and uplifting while encouraging visitors to discover more of the author’s work through Pinterest and organic search.
-
----
-
-### My Role
-I wrote the poems and designed the structure and copy for this section of the author website.  
-I organized the hidden poetry pages into a cohesive hub, added internal navigation for discoverability, and aligned tone, visuals, and layout with the Penelope J. Miller book series.  
-I also optimized titles and internal links for search visibility and Pinterest engagement.
-
----
-
-## Visual Example  
-**Pinterest-to-Content Navigation**  
+### Screenshots  
 <p align="center">
- <img src="../images/Secret_Pages_Navigation.png" width="60%">
-
+  <img src="../images/Secret_Pages_Navigation.png" width="40%">
 </p>
 
-## Outcome  
-- Pinterest visitors land on content that matches their intentions, not a bookstore page  
-- Users explore multiple pages instead of leaving immediately  
-- Improved relevance builds emotional engagement before purchase consideration
-
-### Explore the Live Pages  
-Experience the project live on the website:
-
-- [Penelope’s Pages (Main Hub)](https://ashleyrice.net/penelopes-pages)
-- [25 Girl Power Quotes That Hit Different](https://ashleyrice.net/different-quotes)
-- [You’ve Got Guts](https://ashleyrice.net/it-takes-guts)
-- [Wherever You Go... Continued](https://ashleyrice.net/where-you-go-version-2)
-- [A Little Note for You](https://ashleyrice.net/a-little-note-for-you)
+### Individual pages (explore them here)
+- [Main hub](https://ashleyrice.net/penelopes-pages)  
+- [25 Girl Power Quotes](https://ashleyrice.net/different-quotes)  
+- [You’ve Got Guts](https://ashleyrice.net/it-takes-guts)  
+- [Wherever You Go…](https://ashleyrice.net/where-you-go-version-2)  
+- [A Little Note for You](https://ashleyrice.net/a-little-note-for-you)  
 - [Happy Birthday Poems](https://ashleyrice.net/happy-birthday)
 
-
-Full content sample and UX copy are included above.
+---
