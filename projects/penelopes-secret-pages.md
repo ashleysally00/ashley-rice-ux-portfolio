@@ -24,8 +24,9 @@ A living, browsable world that turns Pinterest visitors into delighted readers w
 
 ### Screenshots  
 <p align="center">
-  <img src="../images/Secret_Pages_Navigation.png" width="40%">
+  <img src="../images/Secret_Pages.png" width="40%">
 </p>
+
 
 ### Individual pages (explore them here)
 - [Main hub](https://ashleyrice.net/penelopes-pages)  
