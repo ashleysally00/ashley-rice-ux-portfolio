@@ -15,7 +15,15 @@
 
 
 - [Penelope’s Secret Pages](./projects/penelopes-secret-pages.md) – Increased engagement by designing a narrative-driven UX around a fictional character’s world.
+
+  <p align="center">
+  <a href="https://github.com/ashleysally00/ashley-rice-ux-portfolio/blob/main/projects/penelopes-secret-pages.md">
+    <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/Secret_Pages.png" width="320">
+  </a>
+</p>
+
 - [Pinterest Journey & Discovery Flow](./projects/pinterest-journey.md) – Aligned emotional tone with performance metrics to identify wording that drove sales and engagement. How? Through prompt engineering and testing variations for a stationery brand. And logging the results.
+
 
 <p align="center">
   <a href="https://github.com/ashleysally00/ashley-rice-ux-portfolio/blob/main/projects/pinterest-journey.md">
