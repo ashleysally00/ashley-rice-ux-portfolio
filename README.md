@@ -42,7 +42,7 @@
 
 <p align="center">
   <a href="https://github.com/ashleysally00/ashley-rice-ux-portfolio/blob/main/projects/omdena-fire-prediction.md">
-  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/meanLSTnight2024.png" width="320">
+  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/meanLSTnight2024.png" width="220">
 </a>
 <p align="center">
 
