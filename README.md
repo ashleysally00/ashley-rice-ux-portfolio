@@ -60,7 +60,7 @@
 
 <p align="center">
   <a href="./projects/Verbalized-Sampling-Case-Study.md">
-    <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/VS_Graphic.png" width="380">
+    <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/VS_Graphic.png" width="280">
   </a>
 </p>
 
