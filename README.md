@@ -56,8 +56,8 @@
   </a>
 </p>
 
+- [Verbalized Sampling for UX](./projects/Verbalized-Sampling-Case-Study.md) – Prompt-engineering experiment exploring tone alignment and audience targeting for creative content.
 
-  
-- [Verbalized Sampling for UX](https://github.com/ashleysally00/verbalized-sampling-experiment) – Prompt-engineering experiment exploring tone alignment and audience targeting for creative content.
+
 
 
