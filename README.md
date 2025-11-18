@@ -4,7 +4,13 @@
 
 ## Case Studies
 
+
 - [Interactive Personality Quiz](./projects/interactive-personality-quiz.md) – Used quiz logic and brand voice to turn self-discovery into helpful product recommendations that strengthen brand loyalty.
+
+   <a href="./projects/interactive-personality-quiz.md">
+  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/Quiz_Intro_Screen.png" width="320">
+</a>
+
 - [Penelope’s Secret Pages](./projects/penelopes-secret-pages.md) – Increased engagement by designing a narrative-driven UX around a fictional character’s world.
 - [Pinterest Journey & Discovery Flow](./projects/pinterest-journey.md) – Aligned emotional tone with performance metrics to identify wording that drove sales and engagement. How? Through prompt engineering and testing variations for a stationery brand. And logging the results.
 - [Books Page Redesign](./projects/books-page-redesign.md) – Reduced friction by redesigning navigation for a high-volume books section. This enabled users to find titles faster and explore longer — because a website should be easier to navigate than a library card catalog.
