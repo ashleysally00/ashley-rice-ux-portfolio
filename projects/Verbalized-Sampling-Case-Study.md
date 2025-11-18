@@ -1,7 +1,5 @@
 # Verbalized Sampling for Tone-Aligned Pinterest Copy
 
-**Short version in my portfolio** → [Back to case study list](https://github.com/ashleysally00/ashley-rice-ux-portfolio#interactive-personality-quiz)
-
 A self-directed experiment showing how verbalized sampling (making LLMs generate multiple options + explain their own confidence) dramatically improves tone alignment, audience fit, and predicted click-through rate for creative social copy.
 
 ## The Problem
