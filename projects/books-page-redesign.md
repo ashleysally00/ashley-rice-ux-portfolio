@@ -1,25 +1,24 @@
-# Books Page Redesign — Structured Captions and Consistent Layout
+## Books Page Redesign  
+### Structured Captions & Consistent Layout
 
-**Role:** UX Content Designer · Information Architect · Copywriter  
-**Platform:** ashleyrice.net (Squarespace 7.1)  
-**Project Type:** Live Author Website Optimization  
+**Role** UX Content Designer · Information Architect · Copywriter  
+**Platform** ashleyrice.net (Squarespace 7.1)  
+**Tools** Squarespace · SEMrush  
 
----
+**The Challenge**  
+Squarespace galleries were breaking heading hierarchy, creating misaligned covers, duplicate H-tags, and hurting both usability and SEO.
 
-## Objective
-Redesign the Books page to align all book covers consistently while preserving accessibility, SEO structure, and a clean visual grid.  
-The challenge: Squarespace galleries did not allow uniform caption text or proper heading hierarchy, which hurt both usability and search clarity.
+**What I Did**  
+- Converted the book list to a gallery with a fixed 2:3 aspect ratio for consistent image sizing  
+- Rewrote and standardised every caption, button, and heading  
+- Fixed heading structure (H1–H3) so Google and screen readers see proper hierarchy  
+- Unified tone and microcopy across English and Spanish editions  
+- Added clear, friendly CTAs throughout
 
----
+**Outcome**  
+A clean, scannable, accessible, and search-friendly books page that keeps visitors browsing instead of bouncing.
 
-## Process and Contributions
-
-**Problem Discovery**  
-Identified misaligned book covers, inconsistent padding, and duplicate SEO headings flagged by SEMrush.  
-Analyzed Squarespace 7.1 gallery behavior and confirmed that captions collapsed the heading structure (H1–H3), affecting crawlability.
-
-**Information Architecture and Technical Approach**  
-- Converted the book list to a gallery with a fixed 2:3 aspect ratio for consistent image sizing
+**Live page** → [ashleyrice.net/books](https://ashleyrice.net/books)
 
 ---
 
