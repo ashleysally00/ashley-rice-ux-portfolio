@@ -30,7 +30,8 @@
     <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/RainbowThankYou.jpg" width="180">
   </a>
 </p>
-- [Books Page Redesign](./projects/books-page-redesign.md) – Reduced friction by redesigning navigation for a high-volume books section. This enabled users to find titles faster and explore longer — because a website should be easier to navigate than a library card catalog.
+
+- [Books Page Redesign](projects/books-page-redesign.md) – Reduced friction by redesigning navigation for a high-volume books section. This enabled users to find titles faster and explore longer — because a website should be easier to navigate than a library card catalog.
 
 
 <p align="center">
