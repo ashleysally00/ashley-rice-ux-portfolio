@@ -44,7 +44,7 @@
 
 <p align="center">
   <a href="https://github.com/ashleysally00/ashley-rice-ux-portfolio/blob/main/projects/omdena-fire-prediction.md">
-  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/meanLSTnight2024.png" width="220">
+  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/meanLSTnight2024.png" width="290">
 </a>
 <p align="center">
 
@@ -52,12 +52,17 @@
 
   <p align="center">
   <a href="./projects/seo-schema-debugging.md">
-    <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/Semrush_Dash.png" width="300">
+    <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/Semrush_Dash.png" width="360">
   </a>
 </p>
 
 - [Verbalized Sampling for UX](./projects/Verbalized-Sampling-Case-Study.md) – Prompt-engineering experiment exploring tone alignment and audience targeting for creative content.
 
+<p align="center">
+  <a href="./projects/Verbalized-Sampling-Case-Study.md">
+    <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/VS_Graphic.png" width="380">
+  </a>
+</p>
 
 
 
