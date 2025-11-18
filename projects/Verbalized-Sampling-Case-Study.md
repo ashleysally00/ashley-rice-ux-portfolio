@@ -54,7 +54,7 @@ Top predicted CTR jumped to 35 % → still the leader, but now actually usable.
 - Compare model-predicted CTR vs real Pinterest analytics  
 - Publish final results as an update to this case study
 
-Live Pinterest board used for testing → [pinterest.com/ashleyrice](https://https://www.pinterest.com/ashleylynnrice1/)
+Live Pinterest board used for testing → [pinterest.com/ashleylynnrice1](https://www.pinterest.com/ashleylynnrice1/)
 
 This technique is now part of my standard workflow whenever I need copy that has to nail a very specific age or emotional tone on the first try.
 
