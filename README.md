@@ -20,6 +20,11 @@
 </a>
 
 - [Omdena Fire Prediction Project](./projects/omdena-fire-prediction.md) – Increased efficiency and team production within an international AI organization by creating clear documentation of project processes. Wrote an onboarding guide with supplemental docs that aligned terminology with data use and streamlined collaboration and communication.
+
+  <a href="https://github.com/ashleysally00/ashley-rice-ux-portfolio/blob/main/projects/omdena-fire-prediction.md">
+  <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/meanLSTnight2024.png" width="320">
+</a>
+
 - [Website SEO & Schema Debugging](https://github.com/ashleysally00/seo-structured-data-fixes) – Optimized technical and on-page SEO to reduce errors by 89%, improving crawlability and boosting search rankings for better discoverability by new clients.
 - [Verbalized Sampling for UX](https://github.com/ashleysally00/verbalized-sampling-experiment) – Prompt-engineering experiment exploring tone alignment and audience targeting for creative content.
 
