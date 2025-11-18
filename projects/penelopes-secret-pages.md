@@ -24,7 +24,9 @@ A living, browsable world that turns Pinterest visitors into delighted readers w
 
 ### Screenshots  
 <p align="center">
-  <img src="../images/Secret_Pages.png" width="40%">
+  <a href="https://www.ashleyrice.net/a-little-note-for-you" target="_blank">
+    <img src="../images/Secret_Pages.png" width="40%">
+  </a>
 </p>
 
 
