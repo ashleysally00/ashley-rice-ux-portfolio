@@ -48,13 +48,14 @@
 </a>
 <p align="center">
 
-- [Website SEO & Schema Debugging](https://github.com/ashleysally00/seo-structured-data-fixes) – When you want an evergreen brand, you need new readers to discover your books. I reduced SEO errors by 89% and improved crawlability so people could find the author’s pages more naturally and faster.
+- [Website SEO & Schema Debugging](./projects/seo-schema-debugging.md) – When you want an evergreen brand, you need new readers to discover your books. I reduced SEO errors by 89% and improved crawlability so people could find the author’s pages more naturally and faster.
 
-  <p align="center">
+<p align="center">
   <a href="./projects/seo-schema-debugging.md">
     <img src="https://raw.githubusercontent.com/ashleysally00/ashley-rice-ux-portfolio/main/images/Semrush_Dash.png" width="360">
   </a>
 </p>
+
 
 - [Verbalized Sampling for UX](./projects/Verbalized-Sampling-Case-Study.md) – Prompt-engineering experiment exploring tone alignment and audience targeting for creative content.
 
