@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omdena Fire Prediction | Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* --- SHARED VARIABLES --- */
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #555;
+            --accent: #0056b3;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-radius: 10px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.8;
+            padding-bottom: 80px;
+        }
+
+        a { text-decoration: none; color: var(--accent); transition: 0.3s; }
+        a:hover { text-decoration: underline; }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        /* --- NAVIGATION --- */
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+        .back-link:hover { color: var(--accent); text-decoration: none; transform: translateX(-3px); }
+
+        /* --- HERO SECTION --- */
+        header {
+            padding: 60px 0 40px;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        /* --- META DATA GRID --- */
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+        }
+
+        .meta-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .meta-item p {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        /* --- CONTENT STYLES --- */
+        section { margin-bottom: 50px; }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary);
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p { margin-bottom: 20px; color: #333; }
+
+        ul { margin-bottom: 20px; padding-left: 20px; }
+        li { margin-bottom: 10px; color: #333; }
+
+        /* --- VISUALS --- */
+        .visual-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+            margin-bottom: 40px; 
+            text-align: center;
+        }
+
+        .visual-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        
+        .caption {
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .primary-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .primary-btn:hover {
+            background-color: #004494;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+        .highlight-box {
+            background-color: #f0f7ff;
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+        <header>
+            <h1>Omdena Fire Prediction Project (Uttarakhand)</h1>
+            <div class="subtitle">Improving data workflow for AI-driven social good</div>
+
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <h4>Role</h4>
+                    <p>UX Contributor<br>Workflow Design</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Project Type</h4>
+                    <p>AI for Social Good<br>Data Tool UX</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Platform</h4>
+                    <p>Google Earth Engine<br>Google Colab<br>DagsHub</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <section>
+                <h2>Objective</h2>
+                <p>Part of Omdena’s AI-Powered Forest Fire Prediction and Early Warning System for Uttarakhand, India. This work focused on improving how collaborators used and understood a multi-tool data workflow spanning GEE, Colab, and DagsHub.</p>
+                <a href="https://github.com/ashleysally00/Uttarakhand-Land-Surface-Temperature-LST-Analysis-Using-GEE" target="_blank" class="primary-btn">View Repository →</a>
+            </section>
+
+            <section>
+                <h2>UX Contributions</h2>
+
+                <h3>Onboarding Experience Design</h3>
+                <p>Created contributor onboarding that went beyond setup instructions. The workflow was broken into clear, progressive steps (GEE → Colab → Cloud → DagsHub), applying information architecture to guide users through complex tools.</p>
+
+                <h3>User Flow Simplification</h3>
+                <p>Turned a technical, satellite-data workflow into a usable, repeatable process. Guides were structured to reduce cognitive load for new collaborators — a core UX principle.</p>
+
+                <h3>Accessibility & Clarity</h3>
+                <p>Added screenshots, glossary entries, and consistent formatting to make the workflow accessible for users with a range of technical backgrounds — from global volunteers and data scientists to wildfire professionals.</p>
+
+                <h3>Research-Driven Design</h3>
+                <p>Planned and conducted an interview with a California wildfire Public Information Officer to understand how satellite data supports emergency response. I developed the questions, led the interview, and summarized insights into actionable design guidance for the project.</p>
+                <p>The interview was later written and published as an article across multiple platforms to extend accessibility and relevance for the wider research and emergency response community.</p>
+
+                <h3>Error Handling & Task Feedback</h3>
+                <p>Documented troubleshooting for recurring GEE errors, including the “Too Many Tasks” issue. Designed clear task monitoring steps to help users recognize progress, recover from errors, and maintain workflow continuity.</p>
+            </section>
+
+            <section>
+                <h2>Collaboration: Troubleshooting & Iteration</h2>
+                <p>Throughout this process, we used Slack to communicate, share information, and troubleshoot together. This helped the team solve problems faster, stay on task and updated, and stay connected while working from different places.</p>
+                
+                <div class="highlight-box">
+                    <strong>Resolving the "Too Many Tasks" Error:</strong>
+                    <ul>
+                        <li>Helped contributors in Slack resolve a recurring error in Google Earth Engine when exporting too much satellite data.</li>
+                        <li>Identified that the issue came from exceeding GEE’s 3,000-task queue limit.</li>
+                        <li>Tested and documented the fix: filtering data by year and adding a <strong>task-monitoring loop</strong>.</li>
+                        <li><strong>Outcome:</strong> Fewer failed runs and reusable guidance for future workflows.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Visual Example</h2>
+                <div class="visual-container">
+                    <img src="../images/meanLSTnight2024.png" alt="Data Visualization of Land Surface Temperature" width="400">
+                    <span class="caption">Example of data visualization output from the workflow</span>
+                </div>
+            </section>
+
+            <section>
+                <h2>Reflection</h2>
+                <p>We were able to work better as a team because we shared our workflow and documentation. By helping each other in Slack and keeping the process clear, it became easier for everyone to understand what to do and move forward without getting stuck.</p>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>

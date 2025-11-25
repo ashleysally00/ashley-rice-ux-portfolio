@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Personality Quiz | Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* --- SHARED VARIABLES --- */
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #555;
+            --accent: #0056b3;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-radius: 10px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.8; /* Increased line height for reading */
+            padding-bottom: 80px;
+        }
+
+        a { text-decoration: none; color: var(--accent); transition: 0.3s; }
+        a:hover { text-decoration: underline; }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 800px; /* Narrower width for better reading experience */
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        /* --- NAVIGATION --- */
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+        .back-link:hover { color: var(--accent); text-decoration: none; transform: translateX(-3px); }
+
+        /* --- HERO SECTION --- */
+        header {
+            padding: 60px 0 40px;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        /* --- META DATA GRID --- */
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+        }
+
+        .meta-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .meta-item p {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        /* --- CONTENT STYLES --- */
+        section { margin-bottom: 50px; }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        p { margin-bottom: 20px; color: #333; }
+
+        ul {
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* --- BUTTONS --- */
+        .primary-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .primary-btn:hover {
+            background-color: #004494;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+
+        /* --- IMAGES --- */
+        .visual-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .visual-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .caption {
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+        <header>
+            <h1>Interactive Personality Quiz</h1>
+            <div class="subtitle">“Which Penelope Book Fits You Best?”</div>
+
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <h4>Role</h4>
+                    <p>UX Content Designer<br>Narrative Designer</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Duration</h4>
+                    <p>3 weeks</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Tools</h4>
+                    <p>HTML / CSS / JS</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Platform</h4>
+                    <p>Web (ashleyrice.net)</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <section>
+                <h2>The Challenge</h2>
+                <p>My site lists multiple Penelope books, but new visitors have no easy way to discover which one matches their personality or mood. A plain list felt flat and didn’t invite exploration.</p>
+            </section>
+
+            <section>
+                <h2>What I Did</h2>
+                <ul>
+                    <li>Wrote every question, answer, result description, and piece of microcopy directly in the JavaScript file.</li>
+                    <li>Used Penelope’s warm, encouraging voice consistently from start to finish.</li>
+                    <li>Added small reassuring details (“No wrong answers,” simple progress bar, one question at a time) to keep it light and fast.</li>
+                    <li>Made each result personal with a custom paragraph + direct Amazon link to the matched book.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Outcome</h2>
+                <p>A fully functional, story-driven quiz that turns casual visitors into readers who instantly know which Penelope book to start with. Live and ready for traffic.</p>
+                
+                <a href="https://ashleysally00.github.io/seo-structured-data-fixes/books_quiz.html" target="_blank" class="primary-btn">Try the quiz live →</a>
+            </section>
+
+            <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 50px 0;">
+
+            <section>
+                <h2>Visual Examples</h2>
+
+                <div class="visual-container">
+                    <img src="../images/Bookmark.png" alt="Quiz Question Screen">
+                    <span class="caption">Question Screen — “Which page would you bookmark?”</span>
+                </div>
+
+                <div class="visual-container">
+                    <img src="../images/Quiz_Results_Page.png" alt="Quiz Result Screen">
+                    <span class="caption">Result Screen — “Your Penelope book match”</span>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verbalized Sampling | Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* --- SHARED VARIABLES --- */
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #555;
+            --accent: #0056b3;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-radius: 10px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.8;
+            padding-bottom: 80px;
+        }
+
+        a { text-decoration: none; color: var(--accent); transition: 0.3s; }
+        a:hover { text-decoration: underline; }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        /* --- NAVIGATION --- */
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+        .back-link:hover { color: var(--accent); text-decoration: none; transform: translateX(-3px); }
+
+        /* --- HERO SECTION --- */
+        header {
+            padding: 60px 0 40px;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        /* --- META DATA GRID --- */
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+        }
+
+        .meta-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .meta-item p {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        /* --- CONTENT STYLES --- */
+        section { margin-bottom: 50px; }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        p { margin-bottom: 20px; color: #333; }
+
+        ul, ol { margin-bottom: 20px; padding-left: 20px; }
+        li { margin-bottom: 10px; color: #333; }
+
+        /* --- TABLE STYLES --- */
+        .table-container {
+            overflow-x: auto; /* Allows scrolling on mobile */
+            margin-bottom: 30px;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+            min-width: 600px; /* Ensures table doesn't squash on mobile */
+        }
+
+        th {
+            background-color: #f4f6f8;
+            text-align: left;
+            padding: 15px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: #444;
+            border-bottom: 2px solid #ddd;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95rem;
+        }
+
+        tr:last-child td { border-bottom: none; }
+
+        /* --- VISUALS --- */
+        .visual-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .visual-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .primary-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .primary-btn:hover {
+            background-color: #004494;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+        <header>
+            <h1>Verbalized Sampling for Tone-Aligned Pinterest Copy</h1>
+            <div class="subtitle">A self-directed experiment using LLMs to improve predicted click-through rates.</div>
+
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <h4>Role</h4>
+                    <p>Prompt Engineer<br>UX Researcher</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Tools Used</h4>
+                    <p>Claude 3.5 / GPT-4o<br>Google Sheets</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Method</h4>
+                    <p>Verbalized Sampling<br>A/B Testing Framework</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <section>
+                <h2>The Problem</h2>
+                <p>Pinterest users were saving my illustrated poems but almost never clicking through to the site. The pin image felt like “the whole thing” instead of a teaser. Early captions I wrote myself were either too adult-sounding or too generic.</p>
+            </section>
+
+            <section>
+                <h2>What is Verbalized Sampling?</h2>
+                <p>Instead of asking an LLM for one caption, you ask it to:</p>
+                <ol>
+                    <li>Generate 5 different captions</li>
+                    <li>Explain why each one might work</li>
+                    <li>Assign its own probability (0–100%) of having the highest CTR</li>
+                </ol>
+                <p>This forces the model to “think out loud” about tone, audience, and emotional triggers — exposing biases and giving you real options instead of a single hallucinated “perfect” answer.</p>
+                
+                <div class="visual-container">
+                    <img src="../images/VS_Graphic.png" alt="Verbalized Sampling Graphic" width="400">
+                </div>
+            </section>
+
+            <section>
+                <h2>Round 1 – First Prompt (No age specified)</h2>
+                <p><strong>Prompt tone guidance:</strong> witty, confident, honest, slightly rebellious (adult voice)<br>
+                <strong>Result:</strong> Captions used words like “chaos,” “confessions,” “real talk” — perfect for 25–35 but way too mature for my actual audience of tweens/teens and their parents.</p>
+                <p><strong>Top predicted CTR:</strong> 35%<br>
+                <strong>Tone match:</strong> 3/10 for actual audience</p>
+            </section>
+
+            <section>
+                <h2>Round 2 – Revised Prompt (Tween/Teen voice added)</h2>
+                <p>Added explicit age range (10–17), banned adult slang, emphasized friendship, giggles, doodles, being yourself.</p>
+                <p><strong>Result:</strong> Instantly age-appropriate, playful, sincere captions.<br>
+                <strong>Top predicted CTR:</strong> Jumped to 35% → still the leader, but now actually usable.</p>
+
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Description (under 20 words)</th>
+                                <th>Model’s Reasoning</th>
+                                <th>Predicted CTR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Did you finish the poem? Click here for the rest…</td>
+                                <td>Suggests the pin is incomplete → curiosity</td>
+                                <td><strong>35%</strong></td>
+                            </tr>
+                            <tr>
+                                <td>More poems about friends, feelings, and being yourself</td>
+                                <td>Uses exact tween keywords + promise of “more”</td>
+                                <td>25%</td>
+                            </tr>
+                            <tr>
+                                <td>Love this doodle? There’s a whole book full of them</td>
+                                <td>Escalates from one image to a collection</td>
+                                <td>15%</td>
+                            </tr>
+                            <tr>
+                                <td>Cute poem! Click to see all the drawings and read more</td>
+                                <td>Simple + positive + quantity promise</td>
+                                <td>10%</td>
+                            </tr>
+                            <tr>
+                                <td>If this made you giggle, wait for the others</td>
+                                <td>Emotional trigger (“giggle”) + playful secrecy</td>
+                                <td>15%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <h2>Key Takeaways</h2>
+                <ul>
+                    <li>Adding a single sentence about audience age completely reshaped vocabulary, emotional range, and slang.</li>
+                    <li>Verbalized sampling surfaced the model’s default adult bias immediately — something a single-answer prompt would have hidden.</li>
+                    <li>The model’s self-assigned probabilities gave me a clear shortlist to test instead of guessing.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Next Steps (Live Test Planned)</h2>
+                <ul>
+                    <li>Push 5 variants live on identical pins.</li>
+                    <li>Measure actual clicks/saves over 2 weeks.</li>
+                    <li>Compare model-predicted CTR vs real Pinterest analytics.</li>
+                    <li>Publish final results as an update to this case study.</li>
+                </ul>
+                <p>This technique is now part of my standard workflow whenever I need copy that has to nail a very specific age or emotional tone on the first try.</p>
+                
+                <a href="https://www.pinterest.com/ashleylynnrice1/" target="_blank" class="primary-btn">View Live Board →</a>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>

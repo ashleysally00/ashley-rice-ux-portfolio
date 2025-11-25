@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Page Redesign | Case Study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* --- SHARED VARIABLES --- */
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #555;
+            --accent: #0056b3;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-radius: 10px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.8;
+            padding-bottom: 80px;
+        }
+
+        a { text-decoration: none; color: var(--accent); transition: 0.3s; }
+        a:hover { text-decoration: underline; }
+
+        /* --- LAYOUT UTILITIES --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        /* --- NAVIGATION --- */
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+        .back-link:hover { color: var(--accent); text-decoration: none; transform: translateX(-3px); }
+
+        /* --- HERO SECTION --- */
+        header {
+            padding: 60px 0 40px;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        /* --- META DATA GRID --- */
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+        }
+
+        .meta-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .meta-item p {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        /* --- CONTENT STYLES --- */
+        section { margin-bottom: 50px; }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        p { margin-bottom: 20px; color: #333; }
+
+        ul { margin-bottom: 20px; padding-left: 20px; }
+        li { margin-bottom: 10px; color: #333; }
+
+        /* --- VISUALS --- */
+        .visual-container {
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+            margin-bottom: 40px; /* Space between images */
+            text-align: center;
+        }
+
+        .visual-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+        
+        .caption {
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .primary-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+        .primary-btn:hover {
+            background-color: #004494;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+        <header>
+            <h1>Books Page Redesign</h1>
+            <div class="subtitle">Structured Captions & Consistent Layout</div>
+
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <h4>Role</h4>
+                    <p>UX Content Designer<br>Info Architect<br>Copywriter</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Platform</h4>
+                    <p>Web (Squarespace 7.1)</p>
+                </div>
+                <div class="meta-item">
+                    <h4>Tools</h4>
+                    <p>Squarespace<br>SEMrush</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+            <section>
+                <h2>The Challenge</h2>
+                <p>Squarespace galleries were breaking heading hierarchy, creating misaligned covers, duplicate H-tags, and hurting both usability and SEO.</p>
+            </section>
+
+            <section>
+                <h2>What I Did</h2>
+                <ul>
+                    <li>Converted the book list to a gallery with a fixed 2:3 aspect ratio for consistent image sizing.</li>
+                    <li>Rewrote and standardized every caption, button, and heading.</li>
+                    <li>Fixed heading structure (H1–H3) so Google and screen readers see proper hierarchy.</li>
+                    <li>Unified tone and microcopy across English and Spanish editions.</li>
+                    <li>Added clear, friendly CTAs throughout.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Outcome</h2>
+                <p>A clean, scannable, accessible, and search-friendly books page that keeps visitors browsing instead of bouncing.</p>
+                <a href="https://ashleyrice.net/books" target="_blank" class="primary-btn">View Live Page →</a>
+            </section>
+
+            <section>
+                <h2>Visual Gallery</h2>
+
+                <div class="visual-container">
+                    <img src="../images/books-page-header-girl-power.png" alt="Books Page Header">
+                    <span class="caption">Books Page Header — “Ashley Rice Books: Poems, Quotes & Girl Power”</span>
+                </div>
+
+                <div class="visual-container">
+                    <img src="../images/spanish-edition-eres-una-chica-increible.png" alt="Spanish Edition">
+                    <span class="caption">Spanish Edition — “¡Eres una chica increíble!”</span>
+                </div>
+
+                <div class="visual-container">
+                    <img src="../images/google-books-library-and-girl-power-form.png" alt="Google Books Library">
+                    <span class="caption">Google Books Library & Girl Power Form</span>
+                </div>
+
+                <div class="visual-container">
+                    <img src="../images/see-the-books-call-to-action.png" alt="Call to Action Design" width="250">
+                    <span class="caption">See the Books — Call to Action Design</span>
+                </div>
+
+                <div class="visual-container">
+                    <img src="../images/letter-from-penelope-longform-layout.png" alt="Long-Form Narrative Layout">
+                    <span class="caption">Letter from Penelope — Long-Form Narrative Layout</span>
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
