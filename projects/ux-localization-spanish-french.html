@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Localization: Spanish & French | Case Study</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #1a1a1a;
+            --secondary: #555;
+            --accent: #0056b3;
+            --bg: #f8f9fa;
+            --border-radius: 10px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.8;
+            padding-bottom: 80px;
+        }
+
+        a { text-decoration: none; color: var(--accent); transition: 0.3s; }
+        a:hover { text-decoration: underline; }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 25px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        header {
+            padding: 60px 0 40px;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            background: #fff;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            border: 1px solid #eaeaea;
+        }
+
+        .meta-item h4 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+
+        .meta-item p {
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        section { margin-bottom: 50px; }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        p { margin-bottom: 20px; color: #333; }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        .primary-btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-right: 12px;
+        }
+
+        .primary-btn:hover {
+            background-color: #004494;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+    <header>
+        <h1>UX Localization: Spanish & French</h1>
+        <div class="subtitle">
+            Testing multilingual UX language clarity across Spanish and French interfaces
+        </div>
+
+        <div class="meta-grid">
+            <div class="meta-item">
+                <h4>Role</h4>
+                <p>UX Writer<br>Localization Lead</p>
+            </div>
+            <div class="meta-item">
+                <h4>Languages</h4>
+                <p>Spanish (es-MX)<br>French (fr-FR)</p>
+            </div>
+            <div class="meta-item">
+                <h4>Focus</h4>
+                <p>Terminology<br>Comprehension</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>The Challenge</h2>
+            <p>
+                Direct translations of interface copy often fail to preserve meaning,
+                tone, or usability. Common UX terms can vary significantly by language,
+                region, and cultural context.
+            </p>
+            <p>
+                The challenge was to identify where translated UI terms introduced
+                confusion or friction for users.
+            </p>
+        </section>
+
+        <section>
+            <h2>What I Did</h2>
+            <ul>
+                <li>Designed an interactive quiz to test understanding of common UX terms.</li>
+                <li>Created Spanish (es-MX) and French (fr-FR) versions with parallel structure.</li>
+                <li>Compared literal translations against more natural, user-friendly phrasing.</li>
+                <li>Observed where users hesitated, misinterpreted, or selected incorrect options.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Outcome</h2>
+            <p>
+                The experiment revealed clear gaps between technically correct translations
+                and terms that users actually understand in context.
+            </p>
+            <p>
+                Results highlighted the importance of localization over direct translation
+                in multilingual UX writing.
+            </p>
+
+            <a href="https://ashleysally00.github.io/es-mx-ui-quiz/"
+               target="_blank"
+               class="primary-btn">
+                Spanish quiz →
+            </a>
+
+            <a href="https://ashleysally00.github.io/fr-fr-ui-quiz/"
+               target="_blank"
+               class="primary-btn">
+                French quiz →
+            </a>
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>
