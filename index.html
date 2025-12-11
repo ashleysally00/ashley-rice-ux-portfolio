@@ -36,34 +36,38 @@ body {
 }
 .top-nav a:hover { color: #000; }
 
-/* ---------- HEADER ---------- */
+/* ---------- CONTAINER ---------- */
 .container { max-width: 1200px; margin: 0 auto; }
 
-header { margin-bottom: 80px; }
+/* ---------- DESKTOP HEADER (DEFAULT) ---------- */
+header { margin-bottom: 75px; }
 
 .header-title {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     font-weight: 700;
     letter-spacing: -0.5px;
+    margin-bottom: 23px;
 }
 
 .header-name {
-    font-size: 1.4rem;
+    font-size: 1.55rem;
     font-weight: 600;
-    margin-top: 6px;
+    margin-top: 4px;
+    margin-bottom: 28px; /* SPACE YOU WANTED — NOW WORKS */
 }
 
 .header-subtitle {
     font-size: 1.25rem;
-    color: #666;
-    margin-top: 6px;
+    color: #444;
+    margin-bottom: 20px;
 }
 
 .header-impact {
     font-size: 1.05rem;
-    color: #444;
-    margin-top: 8px;
+    color: #555;
+    line-height: 1.45;
     max-width: 650px;
+    margin-bottom: 42px;
 }
 
 /* ---------- GRID ---------- */
@@ -98,14 +102,14 @@ header { margin-bottom: 80px; }
     box-shadow: 0 12px 26px rgba(0,0,0,0.1);
 }
 
-.card-top {
-    padding: 18px;
-}
+.card-top { padding: 18px; }
 
 .card-top h1 {
     font-size: 1.6rem;
     line-height: 1.2;
 }
+
+.card-descriptor { max-width: 85%; }
 
 /* ---------- IMAGE ---------- */
 .card-image {
@@ -119,10 +123,6 @@ header { margin-bottom: 80px; }
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-.card-descriptor {
-    max-width: 85%;
 }
 
 /* ---------- FOOTER ---------- */
@@ -150,12 +150,60 @@ header { margin-bottom: 80px; }
     background: #000;
     color: #fff;
 }
+
+/* ======================================================
+   ===============  MOBILE ONLY OVERRIDES ===============
+   ====================================================== */
+@media (max-width: 600px) {
+
+    body {
+        padding: 12px 14px 60px;
+    }
+
+    .top-nav {
+        justify-content: center;
+        gap: 12px;
+        padding: 12px 0 18px;
+        font-size: 0.82rem;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    header {
+        margin-bottom: 40px;
+    }
+
+    .header-title {
+        font-size: 2.1rem;
+        margin-bottom: 8px;
+        line-height: 1.18;
+    }
+
+    .header-name {
+        font-size: 1.35rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header-subtitle {
+        font-size: 1rem;
+        line-height: 1.25;
+        margin-bottom: 10px;
+    }
+
+    .header-impact {
+        font-size: 0.85rem;
+        line-height: 1.35;
+        margin-bottom: 20px;
+        max-width: 95%;
+    }
+}
+
 </style>
 </head>
 
 <body>
 
-<!-- ✅ FIXED NAV -->
 <nav class="top-nav">
     <a href="index.html">Home</a>
     <a href="content-design.html">Content Design</a>
@@ -177,7 +225,7 @@ header { margin-bottom: 80px; }
 
 <div class="grid">
 
-<!-- 1 -->
+<!-- CARD 1 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Interactive Personality Quiz</h1>
@@ -189,14 +237,11 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-<!-- 2 -->
+<!-- CARD 2 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Penelope's Secret<br>Pages</h1>
-        <p class="card-descriptor">
-            Navigation design for a diary-style<br>
-            content hub
-        </p>
+        <p class="card-descriptor">Navigation design for a diary-style content hub</p>
     </div>
     <div class="card-image"><img src="./images/Secret_Pages_Edited2.png"></div>
     <div class="card-footer">
@@ -204,11 +249,11 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-<!-- 3 -->
+<!-- CARD 3 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Pinterest Journey & Discovery</h1>
-        <p class="card-descriptor">A/B testing for language <br>optimization</p>
+        <p class="card-descriptor">A/B testing for language optimization</p>
     </div>
     <div class="card-image"><img src="./images/pinterest5.png"></div>
     <div class="card-footer">
@@ -216,7 +261,7 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-<!-- 4 -->
+<!-- CARD 4 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Books Page Redesign</h1>
@@ -228,7 +273,7 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-<!-- 5 -->
+<!-- CARD 5 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Omdena Fire Prediction</h1>
@@ -240,26 +285,24 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-<!-- 6 -->
+<!-- CARD 6 -->
 <article class="project-card">
     <div class="card-top">
         <h1>SEO & Schema Debugging</h1>
-<p class="card-descriptor">Technical SEO fixes for search indexing</p>
-</div>
+        <p class="card-descriptor">Technical SEO fixes for search indexing</p>
+    </div>
+    <div class="card-image"><img src="./images/SEO_Edited2.png"></div>
+    <div class="card-footer">
+        <a href="https://github.com/ashleysally00/seo-structured-data-fixes/blob/main/SEO-and-Schema-Case-Study.md"
+   target="_blank"
+   class="view-case-study">
+   View Case Study
+</a>
 
-<div class="card-image">
-  <img src="./images/SEO_Edited2.png">
-</div>
-
-<div class="card-footer">
-  <a href="./projects/seo-schema-debugging.html" class="view-case-study">
-    View Case Study
-  </a>
-</div>
+    </div>
 </article>
 
-
-<!-- 7 -->
+<!-- CARD 7 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Verbalized Sampling for UX</h1>
@@ -271,7 +314,7 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-<!-- 8 -->
+<!-- CARD 8 -->
 <article class="project-card">
     <div class="card-top">
         <h1>UX Localization: Spanish & French</h1>
@@ -290,10 +333,10 @@ header { margin-bottom: 80px; }
     </div>
 </article>
 
-
 </div>
 </div>
 
 </body>
 </html>
+
 
