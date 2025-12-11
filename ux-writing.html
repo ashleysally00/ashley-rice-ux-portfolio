@@ -9,12 +9,88 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="styles.css">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #ffffff;
+    color: #000;
+    padding: 20px 40px 100px;
+}
+
+/* ---------- NAV ---------- */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    padding: 18px 0 26px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 60px;
+    font-size: 0.95rem;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #444;
+}
+
+.top-nav a:hover {
+    color: #000;
+}
+
+/* ---------- LAYOUT ---------- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ---------- HEADER ---------- */
+.header-title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.header-impact {
+    font-size: 1.05rem;
+    color: #444;
+    margin-top: 14px;
+    max-width: 650px;
+}
+
+/* ---------- BODY ---------- */
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 16px;
+    max-width: 720px;
+}
+
+/* ---------- BUTTON ---------- */
+.view-case-study {
+    display: inline-block;
+    padding: 10px 22px;
+    border: 1.5px solid #000;
+    background: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.view-case-study:hover {
+    background: #000;
+    color: #fff;
+}
+</style>
 </head>
 
 <body>
 
-<!-- NAV STAYS AT TOP -->
 <nav class="top-nav">
     <a href="index.html">Home</a>
     <a href="content-design.html">Content Design</a>
@@ -25,34 +101,31 @@
 
 <div class="container">
 
-<!-- HEADER -->
 <header style="margin-bottom:60px;">
     <h1 class="header-title">UX Writing</h1>
 
-    <p class="header-impact" style="margin-top:14px;">
+    <p class="header-impact">
         I focus on language that reduces friction, clarifies intent,
         and helps users move confidently through interfaces.
     </p>
 </header>
 
-<!-- BODY -->
-<section style="max-width:720px; margin-bottom:60px;">
-    <p style="color:#444; margin-bottom:16px;">
+<section style="margin-bottom:60px;">
+    <p>
         My UX writing work includes microcopy, navigation labels,
         system messaging, and language testing—often in data-informed
         and AI-assisted contexts.
     </p>
 
-    <p style="color:#444;">
+    <p>
         My experience includes UX writing and content design work for large-scale
         products at Google, as well as narrative-driven educational experiences
         at Starfall.
     </p>
 </section>
 
-<!-- BOTTOM LINK -->
 <section style="margin-top:80px; padding-top:40px; border-top:1px solid #eee;">
-    <a href="index.html" class="view-case-study" style="width:fit-content;">
+    <a href="index.html" class="view-case-study">
         View selected projects
     </a>
 </section>
@@ -61,3 +134,4 @@
 
 </body>
 </html>
+
