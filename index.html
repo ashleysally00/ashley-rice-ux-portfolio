@@ -53,7 +53,7 @@ header { margin-bottom: 75px; }
     font-size: 1.55rem;
     font-weight: 600;
     margin-top: 4px;
-    margin-bottom: 28px; /* SPACE YOU WANTED — NOW WORKS */
+    margin-bottom: 28px;
 }
 
 .header-subtitle {
@@ -107,7 +107,7 @@ header { margin-bottom: 75px; }
 .card-top h1 {
     font-size: 1.6rem;
     line-height: 1.2;
-    margin-bottom: 6px; /* ← adds the space you want */
+    margin-bottom: 6px;
 }
 
 .card-descriptor { max-width: 85%; }
@@ -152,9 +152,7 @@ header { margin-bottom: 75px; }
     color: #fff;
 }
 
-/* ======================================================
-   ===============  MOBILE ONLY OVERRIDES ===============
-   ====================================================== */
+/* ---------- MOBILE ---------- */
 @media (max-width: 600px) {
 
     body {
@@ -199,7 +197,6 @@ header { margin-bottom: 75px; }
         max-width: 95%;
     }
 }
-
 </style>
 </head>
 
@@ -221,41 +218,38 @@ header { margin-bottom: 75px; }
     <p class="header-subtitle">Data-informed, human-centered UX projects</p>
     <p class="header-impact">
         Impact: clearer navigation, better decisions, improved discoverability, and more effective AI-assisted experiences.
+        <br><br>
+        I design content and structure for AI retrieval, answer extraction, and human-centered UX.
     </p>
 </header>
 
 <div class="grid">
 
-<!-- CARD 1 -->
+<!-- CARD 1 — UX Writing for AEO -->
 <article class="project-card">
     <div class="card-top">
-        <h1>Interactive Personality Quiz</h1>
-        <p class="card-descriptor">Story-driven quiz to help users decide faster</p>
+        <h1>UX Writing for AI Answer Extraction (AEO)</h1>
+        <p class="card-descriptor">
+            Content design for AI answer extraction
+        </p>
     </div>
-    <div class="card-image"><img src="./images/Quiz_Edited2.png"></div>
+    <div class="card-image">
+        <img src="./images/ux_aeo.png">
+    </div>
     <div class="card-footer">
-        <a href="./projects/interactive-personality-quiz.html" class="view-case-study">View Case Study</a>
+        <a href="https://github.com/ashleysally00/ux-writing-for-aeo"
+           target="_blank"
+           class="view-case-study">
+           View Guide
+        </a>
     </div>
 </article>
 
-<!-- CARD 2 -->
-<article class="project-card">
-    <div class="card-top">
-        <h1>Penelope's Secret<br>Pages</h1>
-        <p class="card-descriptor">Navigation design for a diary-style content hub</p>
-    </div>
-    <div class="card-image"><img src="./images/Secret_Pages_Edited2.png"></div>
-    <div class="card-footer">
-        <a href="./projects/penelopes-secret-pages.html" class="view-case-study">View Case Study</a>
-    </div>
-</article>
-
-
-<!-- CARD 3 -->
+<!-- CARD 2 — Pinterest -->
 <article class="project-card">
     <div class="card-top">
         <h1>Pinterest Journey & Discovery</h1>
-        <p class="card-descriptor">A/B testing for language<br>optimization</p>
+        <p class="card-descriptor">A/B testing for language and UX optimization</p>
     </div>
     <div class="card-image"><img src="./images/pinterest5.png"></div>
     <div class="card-footer">
@@ -263,48 +257,43 @@ header { margin-bottom: 75px; }
     </div>
 </article>
 
-<!-- CARD 4 -->
+<!-- CARD 3 — SEO -->
 <article class="project-card">
     <div class="card-top">
-        <h1>Books Page Redesign</h1>
-        <p class="card-descriptor">Redesigning navigation to surface content</p>
-    </div>
-    <div class="card-image"><img src="./images/Books_Page_Edited2.png"></div>
-    <div class="card-footer">
-        <a href="./projects/books-page-redesign.html" class="view-case-study">View Case Study</a>
-    </div>
-</article>
-
-<!-- CARD 5 -->
-<article class="project-card">
-    <div class="card-top">
-        <h1>Omdena Fire Prediction</h1>
-        <p class="card-descriptor">Data cleaning and documentation for fire prediction AI</p>
-    </div>
-    <div class="card-image"><img src="./images/Omdena_Edited2.png"></div>
-    <div class="card-footer">
-        <a href="./projects/omdena-fire-prediction.html" class="view-case-study">View Case Study</a>
-    </div>
-</article>
-
-<!-- CARD 6 -->
-<article class="project-card">
-    <div class="card-top">
-        <h1>SEO & Schema Debugging</h1>
+        <h1>SEO & Schema Markup Debugging</h1>
         <p class="card-descriptor">Technical SEO fixes for search indexing</p>
     </div>
     <div class="card-image"><img src="./images/SEO_Edited2.png"></div>
     <div class="card-footer">
         <a href="https://github.com/ashleysally00/seo-structured-data-fixes/blob/main/SEO-and-Schema-Case-Study.md"
-   target="_blank"
-   class="view-case-study">
-   View Case Study
-</a>
-
+           target="_blank"
+           class="view-case-study">
+           View Case Study
+        </a>
     </div>
 </article>
 
-<!-- CARD 7 -->
+<!-- CARD 4 — Optimizing Content for LLM Retrieval -->
+<article class="project-card">
+    <div class="card-top">
+        <h1>Optimizing Content for LLM Retrieval</h1>
+        <p class="card-descriptor">
+            Refactoring documentation into standalone units for RAG systems
+        </p>
+    </div>
+    <div class="card-image">
+        <img src="./images/optimize_for_llm_retrieval.png">
+    </div>
+    <div class="card-footer">
+        <a href="https://github.com/ashleysally00/optimizing-content-for-llm-retrieval"
+           target="_blank"
+           class="view-case-study">
+           View Guide
+        </a>
+    </div>
+</article>
+
+<!-- CARD 5 -->
 <article class="project-card">
     <div class="card-top">
         <h1>Verbalized Sampling for UX</h1>
@@ -316,22 +305,65 @@ header { margin-bottom: 75px; }
     </div>
 </article>
 
-<!-- CARD 8 -->
+<!-- CARD 6 -->
 <article class="project-card">
     <div class="card-top">
         <h1>UX Localization: Spanish & French</h1>
         <p class="card-descriptor">AI app for testing multilingual UX terminology</p>
     </div>
-
-    <div class="card-image">
-        <img src="./images/Localization_Edited2.png">
-    </div>
-
+    <div class="card-image"><img src="./images/Localization_Edited2.png"></div>
     <div class="card-footer">
-        <a href="./projects/ux-localization-spanish-french.html"
-           class="view-case-study">
+        <a href="./projects/ux-localization-spanish-french.html" class="view-case-study">
            View Case Study
         </a>
+    </div>
+</article>
+
+<!-- CARD 7 -->
+<article class="project-card">
+    <div class="card-top">
+        <h1>Books Page Redesign</h1>
+        <p class="card-descriptor">Redesigning navigation to surface content</p>
+    </div>
+    <div class="card-image"><img src="./images/Books_Page_Edited2.png"></div>
+    <div class="card-footer">
+        <a href="./projects/books-page-redesign.html" class="view-case-study">View Case Study</a>
+    </div>
+</article>
+
+<!-- CARD 8 -->
+<article class="project-card">
+    <div class="card-top">
+        <h1>Personality Quiz</h1>
+        <p class="card-descriptor">Story-driven quiz to help users decide faster</p>
+    </div>
+    <div class="card-image"><img src="./images/Quiz_Edited2.png"></div>
+    <div class="card-footer">
+        <a href="./projects/interactive-personality-quiz.html" class="view-case-study">View Case Study</a>
+    </div>
+</article>
+
+<!-- CARD 9 -->
+<article class="project-card">
+    <div class="card-top">
+        <h1>Penelope's Secret Pages</h1>
+        <p class="card-descriptor">Navigation design for a diary-style content hub</p>
+    </div>
+    <div class="card-image"><img src="./images/Secret_Pages_Edited2.png"></div>
+    <div class="card-footer">
+        <a href="./projects/penelopes-secret-pages.html" class="view-case-study">View Case Study</a>
+    </div>
+</article>
+
+<!-- CARD 10 -->
+<article class="project-card">
+    <div class="card-top">
+        <h1>Omdena Fire Prediction</h1>
+        <p class="card-descriptor">Data cleaning and documentation for fire prediction AI</p>
+    </div>
+    <div class="card-image"><img src="./images/Omdena_Edited2.png"></div>
+    <div class="card-footer">
+        <a href="./projects/omdena-fire-prediction.html" class="view-case-study">View Case Study</a>
     </div>
 </article>
 
@@ -340,5 +372,6 @@ header { margin-bottom: 75px; }
 
 </body>
 </html>
+
 
 
