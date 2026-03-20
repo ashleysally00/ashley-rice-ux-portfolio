@@ -5,21 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ashley Rice | AI UX & Content Design Portfolio</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Inter', sans-serif;
     background: #ffffff;
     color: #000;
     padding: 20px 40px 100px;
 }
 
-/* ---------- NAV ---------- */
 .top-nav {
     display: flex;
     justify-content: center;
@@ -27,88 +24,75 @@ body {
     padding: 18px 0 26px;
     border-bottom: 1px solid #eee;
     margin-bottom: 50px;
-    font-size: 0.95rem;
 }
 
-.top-nav a {
-    text-decoration: none;
-    color: #444;
-}
+.top-nav a { text-decoration: none; color: #444; }
 .top-nav a:hover { color: #000; }
 
-/* ---------- CONTAINER ---------- */
 .container { max-width: 1200px; margin: 0 auto; }
 
-/* ---------- HEADER ---------- */
-header { margin-bottom: 75px; }
-
-.header-title {
-    font-size: 3.6rem;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    margin-bottom: 23px;
-}
+header { margin-bottom: 60px; }
 
 .header-name {
-    font-size: 1.55rem;
-    font-weight: 600;
-    margin-top: 4px;
-    margin-bottom: 28px;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+    line-height: 1.1;
+}
+
+.header-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 16px;
 }
 
 .header-subtitle {
-    font-size: 1.25rem;
-    color: #444;
-    margin-bottom: 20px;
+    font-size: 1.05rem;
+    color: #000;
+    max-width: 900px;
+    line-height: 1.6;
 }
 
-/* ---------- GRID ---------- */
+.section-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 50px 0 20px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 60px 36px;
+    gap: 50px 30px;
 }
 
-@media (max-width: 1200px) {
-    .grid { grid-template-columns: repeat(2, 1fr); }
-}
-
-@media (max-width: 768px) {
-    .grid { grid-template-columns: 1fr; }
-}
-
-/* ---------- CARD ---------- */
 .project-card {
-    background: #fff;
     border: 1px solid #e6e9ee;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     box-shadow: 0 6px 14px rgba(0,0,0,0.07);
-    transition: all 0.25s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 26px rgba(0,0,0,0.1);
 }
 
 .card-top { padding: 18px; }
 
 .card-top h1 {
-    font-size: 1.6rem;
-    line-height: 1.2;
+    font-size: 1.4rem;
     margin-bottom: 6px;
 }
 
-.card-descriptor { max-width: 85%; }
+.card-descriptor {
+    font-size: 0.95rem;
+    color: #444;
+}
 
 .card-image {
-    height: 180px;
+    height: 170px;
     background: #f7f7f7;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
 }
 
 .card-image img {
@@ -117,24 +101,17 @@ header { margin-bottom: 75px; }
     object-fit: cover;
 }
 
-.card-footer {
-    padding: 18px;
-    display: flex;
-    flex-direction: column;
-}
+.card-footer { padding: 18px; }
 
 .view-case-study {
-    margin-top: auto;
-    padding: 10px 22px;
+    padding: 10px;
     border: 1.5px solid #000;
-    background: #fff;
-    font-weight: 600;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
     text-align: center;
     text-decoration: none;
     color: #000;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: block;
 }
 
 .view-case-study:hover {
@@ -147,252 +124,172 @@ header { margin-bottom: 75px; }
 <body>
 
 <nav class="top-nav">
-<a href="index.html">Home</a>
-<a href="content-design.html">Content Design</a>
-<a href="ux-writing.html">UX Writing</a>
-<a href="projects.html">Projects</a>
-<a href="about.html">About</a>
+  <a href="index.html">Home</a>
+  <a href="content-design.html">Content Design</a>
+  <a href="ux-writing.html">UX Writing</a>
+  <a href="projects.html">Projects</a>
+  <a href="about.html">About</a>
 </nav>
 
 <div class="container">
 
-<header>
-<h1 class="header-title" style="font-size:2.5rem;font-weight:600;line-height:1.2;">
-AI UX & Content Designer
-</h1>
+  <header>
+    <h1 class="header-name">Ashley Rice</h1>
+    <p class="header-title">AI UX &amp; Content Designer</p>
+    <p class="header-subtitle">
+     I design and evaluate AI system behavior across multi-turn interactions, shaping how models use context, generate responses, and handle edge cases.
+  </header>
 
-<p class="header-subtitle" style="font-size:1.25rem;font-weight:500;color:#444;margin-top:6px;margin-bottom:15px;">
-Publicly shareable projects in AI product UX, conversational systems, and content design
-</p>
+  <!-- FEATURED -->
+  <h2 class="section-title">Featured AI Work</h2>
 
-<p class="header-name" style="font-size:1.4rem;font-weight:500;margin-top:10px;margin-bottom:25px;">
-Ashley Rice
-</p>
-</header>
+  <div class="grid">
 
-<div class="grid">
+    <article class="project-card">
+      <div class="card-top">
+        <h1>AI Analytics Context &amp; Configuration</h1>
+        <p class="card-descriptor">
+          Designing structured context systems that shape AI responses at runtime
+        </p>
+      </div>
+      <div class="card-image">
+        <img src="./images/example_corp.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://ar-528b7fb5.mintlify.app" target="_blank" class="view-case-study">
+          VIEW LIVE DOCUMENTATION
+        </a>
+      </div>
+    </article>
 
-<!-- ROW 1 -->
-<article class="project-card">
-<div class="card-top">
-<h1>AI Analytics Context & Configuration</h1>
-<p class="card-descriptor">AI context documentation with integrated AI assistant</p>
-</div>
-<div class="card-image">
-<img src="./images/example_corp.png">
-</div>
-<div class="card-footer">
-<a href="https://ar-528b7fb5.mintlify.app" target="_blank" class="view-case-study">
-VIEW LIVE DOCUMENTATION
-</a>
-</div>
-</article>
+    <article class="project-card">
+      <div class="card-top">
+        <h1>Conversation Design for AI Assistants</h1>
+        <p class="card-descriptor">
+          Designing multi-turn AI behavior, safety handling, and edge-case responses
+        </p>
+      </div>
+      <div class="card-image">
+        <img src="./images/cancel_gym.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/ashleysally00/conversational-design-cancel-subscription" target="_blank" class="view-case-study">
+          View Case Study
+        </a>
+      </div>
+    </article>
 
-<article class="project-card">
-<div class="card-top">
-<h1>UX Writing for AI Answer Extraction (AEO)</h1>
-<p class="card-descriptor">Content design for AI answer extraction</p>
-</div>
-<div class="card-image">
-<img src="./images/ux_aeo.png">
-</div>
-<div class="card-footer">
-<a href="https://github.com/ashleysally00/ux-writing-for-aeo" target="_blank" class="view-case-study">
-View Guide
-</a>
-</div>
-</article>
+    <article class="project-card">
+      <div class="card-top">
+        <h1>UX Writing for AI Answer Extraction (AEO)</h1>
+        <p class="card-descriptor">
+          Structuring content for LLM-generated answers and response accuracy
+        </p>
+      </div>
+      <div class="card-image">
+        <img src="./images/ux_aeo.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/ashleysally00/ux-writing-for-aeo" target="_blank" class="view-case-study">
+          View Guide
+        </a>
+      </div>
+    </article>
 
-<article class="project-card">
-<div class="card-top">
-<h1>Optimizing Content for LLM Retrieval</h1>
-<p class="card-descriptor">Refactoring documentation into standalone units for RAG systems</p>
-</div>
-<div class="card-image">
-<img src="./images/optimize_for_llm_retrieval.png">
-</div>
-<div class="card-footer">
-<a href="https://github.com/ashleysally00/optimizing-content-for-llm-retrieval" target="_blank" class="view-case-study">
-View Guide
-</a>
-</div>
-</article>
+  </div>
 
-<!-- ROW 2 -->
-<article class="project-card">
-<div class="card-top">
-<h1>Conversation Design for AI Assistants</h1>
-<p class="card-descriptor">Cancellation assistant QA & safety</p>
-</div>
-<div class="card-image">
-<img src="./images/cancel_gym.png">
-</div>
-<div class="card-footer">
-<a href="https://github.com/ashleysally00/conversational-design-cancel-subscription" target="_blank" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+  <!-- SECONDARY AI -->
+  <h2 class="section-title">Additional AI &amp; Technical Work</h2>
 
-<article class="project-card">
-<div class="card-top">
-<h1>Text Classification API — OpenAPI Sample</h1>
-<p class="card-descriptor">API documentation and developer education writing sample</p>
-</div>
-<div class="card-image">
-<img src="./images/API_doc.png">
-</div>
-<div class="card-footer">
-<a href="https://github.com/ashleysally00/api-doc-sample-text-classification" target="_blank" class="view-case-study">
-View OpenAPI Spec
-</a>
-</div>
-</article>
+  <div class="grid">
 
-<article class="project-card">
-<div class="card-top">
-<h1>Conversational & Multimodal AI Flows</h1>
-<p class="card-descriptor">Intent, state, and recovery logic</p>
-</div>
-<div class="card-image">
-<img src="./images/flowcharts_card.png">
-</div>
-<div class="card-footer">
-<a href="https://github.com/ashleysally00/conversational-design-cancel-subscription/blob/main/conversational-flows.md" target="_blank" class="view-case-study">
-View Flows
-</a>
-</div>
-</article>
+    <article class="project-card">
+      <div class="card-top">
+        <h1>Optimizing Content for LLM Retrieval</h1>
+        <p class="card-descriptor">Refactoring documentation into standalone units for RAG systems</p>
+      </div>
+      <div class="card-image">
+        <img src="./images/optimize_for_llm_retrieval.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/ashleysally00/optimizing-content-for-llm-retrieval" target="_blank" class="view-case-study">
+          View Guide
+        </a>
+      </div>
+    </article>
 
-<!-- ROW 3 -->
-<article class="project-card">
-<div class="card-top">
-<h1>UX Localization: Spanish & French</h1>
-<p class="card-descriptor">UX language framework for mobility & delivery platforms</p>
-</div>
-<div class="card-image">
-<img src="./images/Localization_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="https://ashleysally00.github.io/es-mx-ui-quiz/" target="_blank" class="view-case-study">
-Launch Live App
-</a>
-</div>
-</article>
+    <article class="project-card">
+     <div class="card-top" style="padding-bottom: 34px;">
+        <h1>Conversational &amp; Multimodal<br>AI Flows</h1>
+        <p class="card-descriptor">Intent, state, and recovery logic</p>
+      </div>
+      <div class="card-image">
+        <img src="./images/flowcharts_card.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/ashleysally00/conversational-design-cancel-subscription/blob/main/conversational-flows.md" target="_blank" class="view-case-study">
+          View Flows
+        </a>
+      </div>
+    </article>
 
-<article class="project-card">
-<div class="card-top">
-<h1>SEO & Structured Data Fixes</h1>
-<p class="card-descriptor">Technical SEO fixes for search indexing</p>
-</div>
-<div class="card-image">
-<img src="./images/SEO_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="https://github.com/ashleysally00/seo-structured-data-fixes/blob/main/SEO-and-Schema-Case-Study.md" target="_blank" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+    <article class="project-card">
+      <div class="card-top">
+        <h1>Text Classification API — OpenAPI Sample</h1>
+        <p class="card-descriptor">API documentation and developer education writing sample</p>
+      </div>
+      <div class="card-image">
+        <img src="./images/API_doc.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/ashleysally00/api-doc-sample-text-classification" target="_blank" class="view-case-study">
+          View OpenAPI Spec
+        </a>
+      </div>
+    </article>
 
-<article class="project-card">
-<div class="card-top">
-<h1>Pinterest Journey & Discovery</h1>
-<p class="card-descriptor">A/B testing for language and UX optimization</p>
-</div>
-<div class="card-image">
-<img src="./images/pinterest5.png">
-</div>
-<div class="card-footer">
-<a href="./projects/pinterest-journey.html" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+  </div>
 
-<!-- ROW 4 -->
-<article class="project-card">
-<div class="card-top">
-<h1>Verbalized Sampling for UX</h1>
-<p class="card-descriptor">Context-driven prompting to test UX approaches</p>
-</div>
-<div class="card-image">
-<img src="./images/Verbalized_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="./projects/Verbalized-Sampling-Case-Study.html" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+  <!-- UX -->
+  <h2 class="section-title">UX &amp; Product Work</h2>
 
-<article class="project-card">
-<div class="card-top">
-<h1>Books Page Redesign</h1>
-<p class="card-descriptor">Redesigning navigation to surface content</p>
-</div>
-<div class="card-image">
-<img src="./images/Books_Page_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="./projects/books-page-redesign.html" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+  <div class="grid">
 
-<article class="project-card">
-<div class="card-top">
-<h1>Personality Quiz</h1>
-<p class="card-descriptor">Story-driven quiz to help users decide faster</p>
-</div>
-<div class="card-image">
-<img src="./images/Quiz_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="./projects/interactive-personality-quiz.html" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+    <article class="project-card">
+      <div class="card-top">
+        <h1>UX Localization: Spanish &amp; French</h1>
+        <p class="card-descriptor">UX language framework for mobility &amp; delivery platforms</p>
+      </div>
+      <div class="card-image">
+        <img src="./images/Localization_Edited2.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://ashleysally00.github.io/es-mx-ui-quiz/" target="_blank" class="view-case-study">
+          Launch Live App
+        </a>
+      </div>
+    </article>
 
-<!-- ROW 5 -->
-<article class="project-card">
-<div class="card-top">
-<h1>Penelope's Secret Pages</h1>
-<p class="card-descriptor">Navigation design for a diary-style content hub</p>
-</div>
-<div class="card-image">
-<img src="./images/Secret_Pages_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="./projects/penelopes-secret-pages.html" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+    <article class="project-card">
+  <div class="card-top" style="padding-bottom: 64px;">
+        <h1>SEO &amp; Structured Data Fixes</h1>
+        <p class="card-descriptor">Technical SEO fixes for search indexing</p>
+      </div>
+      <div class="card-image">
+        <img src="./images/SEO_Edited2.png">
+      </div>
+      <div class="card-footer">
+        <a href="https://github.com/ashleysally00/seo-structured-data-fixes" target="_blank" class="view-case-study">
+          View Case Study
+        </a>
+      </div>
+    </article>
 
-<article class="project-card">
-<div class="card-top">
-<h1>Omdena Fire Prediction</h1>
-<p class="card-descriptor">Data cleaning and documentation for fire prediction AI</p>
-</div>
-<div class="card-image">
-<img src="./images/Omdena_Edited2.png">
-</div>
-<div class="card-footer">
-<a href="./projects/omdena-fire-prediction.html" class="view-case-study">
-View Case Study
-</a>
-</div>
-</article>
+  </div>
 
-</div>
 </div>
 
 </body>
 </html>
-
-
 
 
